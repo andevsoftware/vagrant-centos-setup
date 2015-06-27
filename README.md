@@ -1,15 +1,20 @@
 # vagrant-centos-setup #
 
-*This setup is only tested on OS X Yosemite*
+**This setup is only tested on OS X Yosemite**
+
+## Server ##
+
+Take a look at /_server/bootstrap.sh to see what gets installed on this server.
 
 ## Requirements ##
 You need to have at least (VirtualBox, VMWare..) and Vagrant installed.
+
 
 ## Setup ##
 
 ### Step 1 ###
 ````
-clone https://github.com/olivierandriessen/vagrant–centos-setup
+git clone https://github.com/olivierandriessen/vagrant–centos-setup
 ````
 
 ### Step 2 ###
@@ -68,7 +73,7 @@ sudo service httpd restart
 ````
 
 ### Step 3 ###
-Then, your browser needs to know where to look when you enter domainnname.com
+Then, your browser needs to know where to look when you enter domainnname.com  
 Open up terminal and type the following command
 ````
 sudo nano /etc/hosts
@@ -77,4 +82,6 @@ sudo nano /etc/hosts
 And add the following line
 ````
 127.0.0.1 domainname.com
-````
+````  
+
+Done!
