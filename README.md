@@ -40,6 +40,8 @@ Create a new domainname.conf file inside /web/_server/conf_files with for exampl
 
         AllowOverride All
 
+        EnableSendfile Off
+
         Require all granted
 
     </Directory>
