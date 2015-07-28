@@ -10,6 +10,11 @@ sudo yum -y install git
 
 sudo yum -y install gcc gcc-cpp gcc-c++
 
+# General - Correct time
+yum install ntp
+
+ntpdate pool.ntp.org
+
 # For file editing
 
 sudo yum install nano
