@@ -132,3 +132,6 @@ sudo yum -y install rubygems
 gem update --system
 
 gem install compass
+
+# Install Java
+sudo yum install java-1.7.0-openjdk-devel
