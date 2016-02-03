@@ -61,8 +61,7 @@ sudo yum -y install libtool
 
 cd /tmp
 git clone git://github.com/phalcon/cphalcon.git
-git checkout master
-cd cphalcon/ext
+cd cphalcon/build
 sudo ./install
 
 
